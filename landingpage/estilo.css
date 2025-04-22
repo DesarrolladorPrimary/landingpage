@@ -1,0 +1,133 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    display: inline-block;
+    height: 70px;
+    align-items: center;
+    width: 100%;
+}
+
+.header-left { /* Renamed from .izquierda */
+    display: inline-block;
+}
+.header-left img{ /* Renamed from .izquierda img */
+    height: 50px;
+    margin-left: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+.company-name{ /* Renamed from .nombre-empresa */
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 5px;
+    margin-top: 60px;
+    margin-left: 2px;
+    font-size: 30px;
+}
+
+.header-right{ /* Renamed from .derecha */
+    float: right;
+    line-height: 80px;
+    margin-right: 200px;
+    margin-top: 25px;
+}
+
+.header-right a { /* Renamed from .derecha a */
+    /* color del texto de los links */
+    color: rgb(173, 173, 173);
+    /* para que se pongan uno al lado del otro */
+    float: left;
+    /* tipo de letra */
+    font-family: Arial, Helvetica, sans-serif;
+    /* tamaño de la letra */
+    font-size: 20px;
+    /* espacio a la derecha */
+    margin-right: 100px;
+    /* espacio arriba */
+    margin-top: 0;
+    /* sin relleno */
+    padding: 0;
+    /* quitar la linea de abajo */
+    text-decoration: none;
+}
+
+#boton-navegacion{
+    /* color de fondo del boton */
+    background-color: rgb(0, 153, 255);
+    /* para que ocupe su linea */
+    display: block;
+    /* color del texto del boton */
+    color: white;
+    /* bordes redondos */
+    border-radius: 30px;
+    /* espacio dentro del boton */
+    padding: 4px 20px;
+}
+
+/*CONTENIDO PAGINA*/
+/* estilos para el contenido principal */
+.main-content{ /* Renamed from .Contenido */
+    /* espacio a la izquierda */
+    margin-left: 200px;
+    /* espacio arriba */
+    margin-top: 300px;
+}
+
+/* estilos para los titulos h1 dentro del contenido */
+.main-content h1{ /* Renamed from .Contenido h1 */
+    /* tamaño de la letra */
+    font-size: 50px;
+    /* para que ocupe su linea */
+    display: block;
+    /* esto hace la letra negrita */
+    font-weight: bold;
+}
+
+/* esto es para el texto de abajo */
+.headline-subtitle{ /* Renamed from .texto-inferior */
+    /* moverlo un poco para arriba */
+    margin-top: -20px;
+}
+
+/* esto es para los parrafos */
+.main-content p{ /* Renamed from .Contenido p */
+    /* tipo de letra */
+    font-family: sans-serif;
+    /* tamaño de la letra */
+    font-size: 20px;
+    /* color del texto */
+    color: rgb(173, 173, 173);
+}
+
+/* esto es para el parrafo de abajo */
+.description-paragraph{ /* Renamed from .parrafo-inferior */
+    /* espacio abajo */
+    margin-bottom: 60px;
+}
+
+/* esto es para el boton de empezar */
+.start-button{ /* Renamed from .boton-start */
+    /* quitar la linea de abajo */
+    text-decoration: none;
+    /* tipo de letra */
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(118, 200, 252);
+    line-height: 20px;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+
+div .hero-image{ /* Renamed from .imagen */
+    height: 600px;
+    float: right;
+    margin-top: -420px;
+    margin-right: 150px;
+}
