@@ -12,10 +12,10 @@ header {
     width: 100%;
 }
 
-.header-left { /* Renamed from .izquierda */
+.header-left { 
     display: inline-block;
 }
-.header-left img{ /* Renamed from .izquierda img */
+.header-left img{
     height: 50px;
     margin-left: 200px;
     display: inline-block;
@@ -23,7 +23,7 @@ header {
     margin-top: 25px;
 }
 
-.company-name{ /* Renamed from .nombre-empresa */
+.company-name{ 
     display: inline-block;
     vertical-align: middle;
     line-height: 5px;
@@ -32,14 +32,14 @@ header {
     font-size: 30px;
 }
 
-.header-right{ /* Renamed from .derecha */
+.header-right{ 
     float: right;
     line-height: 80px;
     margin-right: 200px;
     margin-top: 25px;
 }
 
-.header-right a { /* Renamed from .derecha a */
+.header-right a { 
     /* color del texto de los links */
     color: rgb(173, 173, 173);
     /* para que se pongan uno al lado del otro */
@@ -73,7 +73,7 @@ header {
 
 /*CONTENIDO PAGINA*/
 /* estilos para el contenido principal */
-.main-content{ /* Renamed from .Contenido */
+.main-content{ 
     /* espacio a la izquierda */
     margin-left: 200px;
     /* espacio arriba */
@@ -81,7 +81,7 @@ header {
 }
 
 /* estilos para los titulos h1 dentro del contenido */
-.main-content h1{ /* Renamed from .Contenido h1 */
+.main-content h1{
     /* tamaño de la letra */
     font-size: 50px;
     /* para que ocupe su linea */
@@ -91,13 +91,13 @@ header {
 }
 
 /* esto es para el texto de abajo */
-.headline-subtitle{ /* Renamed from .texto-inferior */
+.headline-subtitle{
     /* moverlo un poco para arriba */
     margin-top: -20px;
 }
 
 /* esto es para los parrafos */
-.main-content p{ /* Renamed from .Contenido p */
+.main-content p{ 
     /* tipo de letra */
     font-family: sans-serif;
     /* tamaño de la letra */
@@ -107,13 +107,13 @@ header {
 }
 
 /* esto es para el parrafo de abajo */
-.description-paragraph{ /* Renamed from .parrafo-inferior */
+.description-paragraph{ 
     /* espacio abajo */
     margin-bottom: 60px;
 }
 
 /* esto es para el boton de empezar */
-.start-button{ /* Renamed from .boton-start */
+.start-button{ 
     /* quitar la linea de abajo */
     text-decoration: none;
     /* tipo de letra */
@@ -125,7 +125,7 @@ header {
     border-radius: 15px;
 }
 
-div .hero-image{ /* Renamed from .imagen */
+div .hero-image{ 
     height: 600px;
     float: right;
     margin-top: -420px;
